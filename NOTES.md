@@ -1,0 +1,5 @@
+- `docker-compose run --service-ports kimai bash`
+- `composer install`
+- `composer require symfony/web-server-bundle`
+- `bin/console kimai:reset-dev`
+- `bin/console server:run 0.0.0.0:8080`

@@ -1,0 +1,8 @@
+version: "3"
+services:
+    kimai:
+        image: composer:1
+        ports:
+            - 8080:8080
+        volumes:
+            - .:/app
